@@ -3,29 +3,82 @@
   <head>
     <meta charset="utf-8">
     <title>Hubspot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   </head>
   <body>
 
-   <div class="container">
+    <div class="container">
       <!--header-->
       <header>
-        <div class="sx-nav">
+          <div class="clearfix border-header">
+            <div class="sx-nav">
+              <ul class="inline color-list">
+                <li>
+                  <a href="#">
+                    <i class="fas fa-globe-europe"></i>
+                    English
+                    <i class="fas fa-chevron-down"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+              </ul>
+              </div>
+            <div class="dx-nav">
+              <ul class="inline color-list">
+                  <li>
+                    <a href="#">
+                      <i class="fas fa-search"></i>
+                    </a>
+                  </li>
+                  <li>
+                   <a href="#">
+                   <button class="white-bt"type="button" name="Log in">Log in</button></li>
+                   </a>
+                <li>
+                   <a href="#">
+                   <button type="button" name="GetHubSpotFree">GetHubSpotFree</button>
+                   </a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-        </div>
-        <div class="dx-nav">
-
-        </div>
       </header>
-
+        <hr class="hr-header">
       <main>
         <nav>
-          <div class="sx-nav1">
-
+          <div class="sx-nav1 inline color-list">
+            <img class="hubspot-logo"src="./img-hubspot/logo.svg" alt="">
           </div>
-          <div class="dx-nav2">
-
+          <div class="dx-nav2 inline color-list">
+            <ul>
+              <li>
+                <a href="#">
+                Software
+                <i class="fas fa-chevron-down"></i>
+              </li>
+               </a>
+               <li class="pricing">Pricing</li>
+              <li>
+               <a href="#">
+               Resources
+               <i class="fas fa-chevron-down"></i>
+              </li>
+              <li>
+               <a href="#">
+               Partners
+               <i class="fas fa-chevron-down"></i>
+              </li>
+              <li>
+               <a href="#">
+               About
+               <i class="fas fa-chevron-down"></i>
+              </li>
+            </ul>
           </div>
         </nav>
 
@@ -40,7 +93,7 @@
         <div class="barra-vuota">
         </div>
 
-        <div class="main-2">
+      <div class="main-2">
           <div class="cont2">
             <img class="squares"src="./img-hubspot/integrations_illustration.webp" alt="">
             <h2>Powerful alone. Better together</h2>
@@ -48,160 +101,266 @@
           </div>
           <div class="cont3">
             <div class="text-main-2">
-              <img class="cassa"src="./img-hubspot/CRM-illustration.svg" alt="">
-              <button class="bot-learn"type="button" name="button">Lear more</button>
+              <img class="cassa" src="./img-hubspot/CRM-illustration.svg" alt="">
+              <button class="bot-learn" type="button" name="button">Learn more</button>
             </div>
               <div class="text2-main-2">
                 <h3>Free HubSpot CRM</h3>
                 <p>Everything you need to organize, track, and build better relationships with leads and customers. Yes, it's 100% free. Forever.</p>
                 <h4>POPOLAR FEATURE</h4>
-                <hr>
+                <hr class="slash">
                 <ul>
-                  <li>Contact Insight</li>
-                  <li>Deals</li>
-                  <li>Task</li>
+                  <li>
+                    <a href="#">
+                    <i id="orange"class="fas fa-check-circle"></i>
+                    Contact Insight
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                    <i id="orange"class="fas fa-check-circle"></i>
+                    Deals
+                    </a>
+                    </li>
+                  <li>
+                    <a href="#">
+                    <i id="orange"class="fas fa-check-circle"></i>
+                    Task
+                    </a>
+                  </li>
                 </ul>
               </div>
           </div>
           <div class="cont4">
              <div class="col1-main2">
-              <img src="" alt="">
+              <img class="marketing"src="./img-hubspot/Marketing-Hub-Free.svg" alt="">
               <h2>Marketing Hub</h2>
-              <p>Marketing software</p>
-              <hr>
-              <h3></h3>
+              <p>Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campains at scale</p>
+              <hr class="slash">
+              <h3>POPOLAR FEATURE</h3>
               <ul>
-              <li></li>
+                <li>
+                 <a href="#">
+                 <i id="orange"class="fas fa-check-circle"></i>
+                 Lead Generation
+                 </a>
+                </li>
+                <li>
+                 <a href="#">
+                 <i id="orange"class="fas fa-check-circle">
+                 </i>
+                 Marketing Automation
+                 </a>
+                </li>
+                <li>
+                 <a href="#">
+                 <i id="orange"class="fas fa-check-circle"></i>
+                 Analytics
+                 </a>
+                </li>
               </ul>
-              <button type="button" name="button"></button>
+              <button class="bot-learn"type="button" name="button">Learn more</button>
              </div>
             <div class="col2-main2">
-              <img src="" alt="">
-              <h2></h2>
-              <p></p>
-              <hr>
-              <h3></h3>
+              <img class="sales-hub"src="./img-hubspot/Sales-Professional-Illustration.svg" alt="">
+              <h2>Sales Hub</h2>
+              <p>Time-saving sales software that helps you get deeper insight into prospects,automate the tasks you hate, and close more deals faster.</p>
+              <hr class="slash">
+              <h3>POPOLAR FEATURE</h3>
               <ul>
-              <li></li>
+              <li>
+               <a href="#">
+               <i id="orange"class="fas fa-check-circle"></i>
+              Email tracking
+              </a>
+              </li>
+              <li>
+               <a href="#">
+               <i id="orange"class="fas fa-check-circle"></i>
+               Meeting Scheduling
+               </a>
+              </li>
+              <li>
+               <a href="#">
+               <i id="orange"class="fas fa-check-circle"></i>
+               Email Automation
+               </a>
+              </li>
               </ul>
-              <button type="button" name="button"></button>
+              <button class="bot-learn"type="button" name="button">Learn more</button>
             </div>
             <div class="col3-main2">
-              <img src="" alt="">
-              <h2></h2>
-              <p></p>
-              <hr>
-              <h3></h3>
+              <img class="service-hub"src="./img-hubspot/Service-Hub-Illustration.svg" alt="">
+              <h2>Service Hub</h2>
+              <p>Customer service software to help you connect with customers,exceed expectations, and turn them into promoters that grow your business</p>
+              <hr class="slash">
+              <h3>POPOLAR FEATURE</h3>
               <ul>
-              <li></li>
+              <li>
+               <a href="#">
+               <i id="orange"class="fas fa-check-circle"></i>
+               Tickets
+               </a>
+              </li>
+              <li>
+               <a href="#">
+              <i id="orange"class="fas fa-check-circle"></i>
+               Customer Feedback
+               </a>
+              </li>
+              <li>
+               <a href="#">
+              <i id="orange"class="fas fa-check-circle"></i>
+               Knowledge
+              </a>
+              </li>
               </ul>
-              <button type="button" name="button"></button>
+              <button class="bot-learn"type="button" name="button">Lear more</button>
             </div>
           </div>
-          </div>
+      </div>
 
-        <div class="main-3">
-          <div class="maintext-3">
+      <div class="main-3">
+        <div class="maintext-3">
            <h2>Learn and grow with award-winning support and a thriving community behind you</h2>
-           <p>You don't have to go it alone.Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
+           <p class="white">You don't have to go it alone.Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
           </div>
 
-          <div class="colonne-main3">
-            <div class="col1-main-3">
+        <div class="colonne-main3">
+          <div class="col1-main-3">
+              <div class="border-bottom">
               <div class="main-3-img">
-                <img src="" alt="">
+                <img src="./img-hubspot/homepage_community_agency.svg" alt="">
               </div>
               <div class="main-3-text">
                 <span class="numero">150+</span>
                 <span>Hubspot user groups</span>
               </div>
-              <hr>
+              </div>
+              <div>
               <div class="main-3-img">
-                <img src="" alt="">
+                <img src="./img-hubspot/homepage_community_connect.svg" alt="">
               </div>
               <div class="main-3-text">
                 <span class="numero">200+</span>
                 <span>Integrations</span>
               </div>
-            </div>
+             </div>
+          </div>
 
              <div class="col2-main-3">
                <div class="main-3-img">
-                 <img src="" alt="">
-               </div>
+                 <div class="border-bottom">
+                 <img src="./img-hubspot/homepage_community_blog.svg" alt="">
                <div class="main-3-text">
-                 <span class="numero">150+</span>
-                 <span>Hubspot user groups</span>
+                 <span class="numero">4.5M +</span>
+                 <span>monthly visits</span>
                </div>
-               <hr>
+               </div>
+              </div>
+
                <div class="main-3-img">
-                 <img src="" alt="">
+                 <img src="./img-hubspot/homepage_community_globe.svg" alt="">
                </div>
-               <div class="main-3-text">
-                 <span class="numero">200+</span>
-                 <span>Integrations</span>
+               <div>
+                 <span class="numero">6 +</span>
+                 <span>Languages</span>
                </div>
              </div>
 
              <div class="col3-main-3">
                <div class="main-3-img">
-                 <img src="" alt="">
-               </div>
+                 <div class="border-bottom">
+                 <img src="./img-hubspot/homepage_community_academy.svg" alt="">
                <div class="main-3-text">
-                 <span class="numero">150+</span>
-                 <span>Hubspot user groups</span>
+                 <span class="numero">155K +</span>
+                 <span>certified professionals</span>
                </div>
-               <hr>
+                </div>
+              </div>
                <div class="main-3-img">
-                 <img src="" alt="">
+                 <img src="./img-hubspot/homepage_community_followers.svg" alt="">
                </div>
                <div class="main-3-text">
-                 <span class="numero">200+</span>
-                 <span>Integrations</span>
+                 <span class="numero">2.6M +</span>
+                 <span>social followers</span>
                </div>
               </div>
 
               <div class="col4-main-3">
                 <div class="main-3-img">
-                  <img src="" alt="">
-                </div>
+                <div class="border-bottom">
+                  <img src="./img-hubspot/homepage_community_inbound.svg" alt="">
                 <div class="main-3-text">
-                  <span class="numero">150+</span>
-                  <span>Hubspot user groups</span>
+                  <span class="numero">21K +</span>
+                  <span>registered attendees</span>
                 </div>
-                <hr>
+                </div>
+                </div>
                 <div class="main-3-img">
-                  <img src="" alt="">
+                  <img src="./img-hubspot/growthhub-white-small.svg" alt="">
                 </div>
                 <div class="main-3-text">
-                  <span class="numero">200+</span>
-                  <span>Integrations</span>
+                  <span class="numero">5K +</span>
+                  <span>profiles and counting</span>
                 </div>
               </div>
-          </div>
-          </div>
+        </div>
+      </div>
 
         <div class="main-4">
           <div class="sx">
             <div class="red">
+              <h2>64,500</h2>
+              <p>customers in over <strong>100</strong> countries growing their businesses with HubSpot</p>
             </div>
             <div class="green">
-            </div>
+              <h2>Start Growing With HubSpot Today</h2>
+              <p>With tools to make every part of your process more human and a support team excited to help you, getting started with inbound has never been easier</p>
+              <button class="last-bt"type="button" name="GetHubSpotFree">GetHubSpotFree</button>
+              <p>Get started with Free tools, and upgrade as you grow.</p>
+              </div>
           </div>
 
           <div class="dx">
             <div class="blue">
+              <ul>
+                  <li>
+                   <img class="size" src="./img-hubspot/Atlassian-horizontal-blue.webp" alt="">
+                  </li>
+                  <li>
+                   <img class="size" src="./img-hubspot/doordash_owler.webp" alt="">
+                  </li>
+                  <li>
+                   <img class="size" src="./img-hubspot/g2crowd.webp" alt="">
+                  </li>
+                  <li>
+                   <img class="size" src="./img-hubspot/purple-logo.webp" alt="">
+                  </li>
+                  <li>
+                    <img class="size" src="./img-hubspot/Subaru_logo.webp" alt="">
+                  </li>
+                  <li>
+                    <img class="size" src="./img-hubspot/Wistia_logo.webp" alt="">
+                  </li>
+                  <li>
+                    <img class="size" src="./img-hubspot/Classpass-logo.webp" alt="">
+                    </li>
+                    <li>
+                      <img class="size" src="./img-hubspot/VMware_logo.webp" alt="">
+                    </li>
+                    </ul>
+              </div>
             </div>
-            <div class="pink">
-            </div>
-          </div>
+              <img class="woman" src="./img-hubspot/woman.webp" alt="">
         </div>
+      </div>
       </main>
 
       <!--footer-->
 
     <footer>
-
+     <div class="contenitore-footer">
       <div class="col1-footer">
        <ul>
         <li><strong>Increase Your Traffic</strong></li>
@@ -224,22 +383,48 @@
       </div>
       <div class="col3-footer">
        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+         <li><strong>Close and Manage Leads</strong></li>
+         <li>Document Tracking Tool</li>
+         <li>Meeting Schedule Tool</li>
+         <li>Sales Automation Tool</li>
+         <li>Lead Management Tool</li>
+         <li>Pipeline Management Tool</li>
        </ul>
       </div>
       <div class="col4-footer">
        <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li><button type="button" name="button"></button></li>
+         <li><strong>Support and Tools</strong></li>
+         <li>HubSpot Partners</li>
+         <li>Join a Local User Group</li>
+         <li>Get a Free Website Report</li>
+         <li>HubSpot Templates</li>
+         <li>Free Tools & Generators</li>
+        <li><button class="last-bt"type="button" name="button">Contact HubSpot Support</button></li>
+        <li>
+        <a href="#">
+        <i class="fab fa-facebook-f"></i>
+        </a>
+        </li>
+        <li>
+        <a href="#">
+        <i class="fab fa-instagram"></i>
+        </a>
+        </li>
+        <li>
+        <a href="#">
+        <i class="fab fa-youtube"></i>
+        </a>
+        </li>
+        <li>
+        <a href="#">
+        <i class="fab fa-twitter"></i>
+        </a>
+        </li>
+        <li>
+        <a href="#">
+        <i class="fab fa-linkedin-in"></i>
+        </a>
+        </li>
        </ul>
       </div>
 
@@ -254,115 +439,26 @@
         </ul>
       </div>
         <hr class="hr-footer">
-      <div class="bottom-page">
-        <div class="sx-bottom">
-          <img src="" alt="">
-          <p>Copyright . 2019 Hubspot,Inc.</p>
+        <div class="bottom-page">
+      <div class="sx-bottom white">
+          <p class="white">HubSp
+          <a href="#">
+          <i class="fab fa-hubspot white"></i>
+          </a>
+          t
+          </p>
+          <p class="white">Copyright . 2019 Hubspot,Inc.</p>
         </div>
-        <div class="dx-bottom">
+         <div class="dx-bottom">
           <ul>
             <li class="copyright-logo">Legal stuff</li>
             <li class="policy-privacy">Privacy Policy</li>
           </ul>
-        </div>
+         </div>
       </div>
-
+     </div>
     </footer>
 
 
-    </body>
-  </html>
-
-
-
-
-
-
-        <!--<div class="nav-bar">
-          <ul>
-            <li class="map">English</li>
-            <li>Contact Us</li>
-            <li class="Lente"></li>
-            <li><button type="button" name="Log in">Log in</button></li>
-            <li> <button type="button" name="GetHubSpotFree">GetHubSpotFree</button></li>
-          </ul>
-        </div>
-      </header>-->
-        <!--main-->
-        <!--<main>
-          <nav>
-            <ul>
-              <li class="logo-hs"></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-            </ul>
-          </nav>
-          <div class="main-1">
-           <h1>There's a better way to grow</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-           <li> <button type="button" name="GetHubSpotFree">GetHubSpotFree</button></li>
-           <p></p>
-           <section class="section-bar">
-
-           </section>
-          </div>
-          <div class="main-2">
-            <img class="squares"src="./img-hubspot/integrations_illustration.webp" alt="">
-            <h2>Powerful alone. Better together</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-            <div class="text-main-2">
-              <img class="cassa"src="./img-hubspot/CRM-illustration.svg" alt="">
-              <button class="bot-learn"type="button" name="button">Lear more</button>
-              <h3>Free HubSpot CRM</h3>
-              <p>Everything you need to organize, track, and build better relationships with leads and customers. Yes, it's 100% free.Forever.</p>
-              <h4>POPOLAR FEATURE</h4>
-              <hr>
-              <ul>
-                <li>Contact Insight</li>
-                <li>Deals</li>
-                <li>Task</li>
-              </ul>
-            </div>
-              <div class="col1-main2">
-
-              </div>
-              <div class="col2-main2">
-
-              </div>
-              <div class="col3-main2">
-
-              </div>
-
-
-
-
-
-
-
-
-
-
-          <div class="main-3">
-
-          </div>
-          <div class="main-4">
-
-          </div>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!--</main>-->
+  </body>
+</html>
