@@ -217,6 +217,7 @@ li{
 }
 .col1-main2,.col2-main2,.col3-main2{
   width: 27%;
+  height: 550px;
   float: left;
   background: white;
   border-radius: 5px;
